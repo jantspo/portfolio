@@ -1,0 +1,377 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My CSS*/
+body{
+	background:black;
+}
+
+#container{
+	height:100%;
+	width: 1200px;
+	background: white;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px black;
+}
+
+header{
+	height: 15%;
+	width:100%;
+	min-height: 117px;
+	background: white;
+	margin: auto;
+}
+
+header h1{
+	font-size:125px;
+	text-align: center;
+}
+
+header h1 a{
+	font-family:'Amaranth', sans-serif;
+	text-decoration: none;
+	color:black;
+}
+
+nav{
+	height: 5%;
+	width: 100%;
+	min-height: 39px;
+	background: white;
+	margin: 0 auto;
+}
+
+nav ul{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+nav ul li{
+	display: inline;
+	float:left;
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li a{
+	font-family: 'Jura', sans-serif;
+	font-size: 25px;
+	margin: 0 5px 0 5px;
+	color: #1f1f1f;
+	text-decoration: none;
+	padding:2px 5px 2px 5px;
+}
+
+nav ul li a:hover{
+	background: #c1c1c1;
+	padding:2px 5px 2px 5px;
+	box-shadow: 5px 5px 5px black;
+}
+
+main{
+	height: 75%;
+	min-height: 585px;
+	width:100%;
+	background: #c1c1c1;
+	margin:0 auto;
+}
+
+main article#indexPage{
+	height: auto;
+	width:60%;
+	height:50%;
+	margin: 0 auto;
+	padding:5% 0% 5% 0;
+}
+
+main article{
+	height: auto;
+	width:60%;
+	height:50%;
+	margin: 0 auto;
+	padding:5% 0% 5% 0;
+}
+
+
+main article p{
+	font-family: 'Jura', sans-serif;
+	font-size: 25px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+main article p span{
+	color:yellow;
+}
+
+main article p a#geekwiseLink{
+	color: #dd2222;
+	text-shadow:none;
+}
+
+main aside{
+	height:250px;
+	width: 200px;
+	border:2px solid grey;
+	float: left;
+	background: white;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+main article h2{
+	font-family: 'Jura', sans-serif;
+	font-size: 32px;
+	color: yellow;
+	text-shadow: 2px 2px 2px black;
+}
+
+aside#news{
+	margin:0 2.5% 0 20%;
+}
+
+aside#aboutMe{
+	margin: 0 2.5% 0;
+}
+
+aside#goals{
+	margin: 0 5% 0 2.5%;
+}
+
+main aside h3{
+	color:yellow;
+	border-bottom: 1px solid grey;
+	font-family:  'Jura', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+
+main aside p{
+	font-family:  'Jura', sans-serif;
+	font-size:18px;
+	padding: 0 0 0 2%;
+}
+
+main aside p a{
+	color:#dd2222
+}
+
+footer{
+	width:100%;
+	height: 5%;
+	min-height: 39px;
+	background: white;
+}
+
+footer div{
+	width: 50%;
+	margin: 6px 0 5px 5px;
+}
+
+footer div p{
+	font-family:  'Jura', sans-serif;
+	font-size:20px;
+	color:black;
+	background: white;
+	padding: 5px 0;
+}
+
+footer div p a{
+	color:yellow;
+	text-decoration: none;
+	padding:2px 5px 2px 5px;
+	text-shadow:2px 2px 2px black;
+}
+
+footer div p a:hover{
+	background: #c1c1c1;
+	padding:2px 5px 2px 5px;
+	box-shadow: 5px 5px 5px black;
+
+}
+
+.clear{
+	clear:both;
+}
+
+/*Responsiveness*/
+
+/*
+@media only screen and (max-width:796px){
+
+	*{
+		margin: 0;
+		padding:0;
+	}
+
+	 #container{
+	 	width: auto;
+	 	max-width: 480px;
+	 	float:none;
+	 	height:auto;
+	 } 
+
+	 header {
+	 	width:auto;
+	 	height:auto;
+	 	max-height: 200px;
+	 	min-height: 0;
+	 	max-width: 480px;
+	 	float:none;
+	 	margin: 0 auto;
+	 	border:5px;
+	 	position: relative;
+	 }
+
+	 article, footer {
+		width: auto;
+		height: auto;
+		max-height: 200px;
+		max-width: 480px;
+		float:none;
+		margin: 0 auto;
+		border-radius: 5px;
+		padding: 0;
+		position: relative;
+	}
+
+	main{
+		width: auto;
+		height: auto;
+		max-width: 480px;
+		border-radius: 5px;
+		background-color:#c1c1c1;
+		margin: 0 auto;
+		padding: 0;
+		float:none;
+		position: relative;
+		min-height: 0;
+	}
+
+	main p#indexPage{
+		width: 450px;
+		height:auto;
+		min-width: 450px;
+		padding: 25px auto 25px;
+		margin:15px auto;
+	}
+
+	aside#news, aside#aboutMe, aside#goals{
+		width:auto;
+		max-width: 300px;
+		height:auto;
+		float:none;
+		box-shadow: none;
+		margin:10px auto;
+	}
+
+	h1{
+		font-size: 24px; 
+	}
+
+	h3{
+		font-size: 20px;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	p{
+		font-size: 15px;
+	}
+	  
+    nav {  
+        width: auto;
+        height:auto;
+        max-width: 480px;
+        border-bottom: 0;  
+    }  
+
+    nav.hideme ul li {
+    	text-align: center;
+
+    } 
+
+   /* nav.hideme { display: none; }*/
+
+   /* nav ul {  
+        display: none;  
+        height: auto;  
+    }  
+    nav a#pull {  
+        display: block;  
+        background-color: #f1f1f1;  
+        width: 100%;  
+        position: relative;  
+    }  
+    nav a#pull:after {  
+        content:"";  
+        background: url('nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        rightright: 15px;  
+        top: 10px;  
+    }*/
+}
+
+@media only screen and (max-width:768px) {
+
+}
+
+@media only screen and (min-width:768px){
+
+}

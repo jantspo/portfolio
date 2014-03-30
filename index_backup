@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
+  <title>John Sposato - About</title>
+  <meta name="author" content="John Sposato"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no"> 
+  <link rel="stylesheet" type="text/css" href="stylesheets/styles_alt.css">
+  <!--[if lt IE 9]>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Jura:600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1><a href="../index.html">JS</a></h1>
+      <nav class="hideme">
+        <ul>
+          <li><a href="">About Me</a></li>
+          <li><a href="">Goals</a></li>
+          <li><a href="">Demos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h3>About Me</h3>
+        <p>Welcome to my site. My name is John Sposato and I am an aspiring web developer looking to leave my mark on the internet.</p>
+      </article>
+    </main>
+  </div>
+  <div class="clear"></div>
+</body>
+</html>
