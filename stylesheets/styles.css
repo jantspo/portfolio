@@ -307,6 +307,7 @@ footer div p a:hover{
 	 article, footer {
 		width: auto;
 		height: auto;
+		min-height: 0;
 		max-height: 200px;
 		max-width: 480px;
 		float:none;
@@ -320,6 +321,7 @@ footer div p a:hover{
 		width: auto;
 		height: auto;
 		max-width: 480px;
+		min-height: 0px;
 		border-radius: 5px;
 		background-color:#c1c1c1;
 		margin: 0 auto;
