@@ -194,19 +194,19 @@ footer{
 }
 
 footer div#sociallinks{
-	width: auto;
+	width: 50%;
 	height: auto;
 	margin: 0 auto;
 }
 
 footer div#sociallinks ul{
-	text-align: center;
-	margin: 0 auto;
+	list-style: none;
 }
 
 footer div#sociallinks ul li{
 	margin: 0 auto;
 	text-decoration: none;
+	float: left;
 }
 
 footer div#sociallinks ul li a{
@@ -215,6 +215,7 @@ footer div#sociallinks ul li a{
 	height:38px;
 	width: 40px;
 	background: url(../images/icons.png)no-repeat;
+	position: relative;
 }
 
 footer div#sociallinks ul li:first-child a{
