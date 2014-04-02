@@ -48,13 +48,15 @@ table {
 }
 
 /*My CSS*/
+
+
+
 body{
 	background:black;
 }
 
 #container{
-	height:100%;
-	width: 1200px;
+	height:auto;
 	background: white;
 	margin: auto;
 	border-radius: 5px;
@@ -62,20 +64,18 @@ body{
 }
 
 header{
-	height: 15%;
-	width:100%;
-	min-height: 117px;
+	height: auto;
+	width:auto;
 	background: white;
-	margin: auto;
 }
 
 header h1{
-	font-size:125px;
+	font-size:1.5em;
 	text-align: center;
 }
 
 header h1 a{
-	font-family:'Amaranth', sans-serif;
+	font:5em 'Amaranth', sans-serif;
 	text-decoration: none;
 	color:black;
 }
@@ -83,9 +83,7 @@ header h1 a{
 nav{
 	height: 5%;
 	width: 100%;
-	min-height: 39px;
 	background: white;
-	margin: 0 auto;
 }
 
 nav ul{
@@ -96,40 +94,24 @@ nav ul{
 }
 
 nav ul li{
-	display: inline;
-	float:left;
 	list-style: none;
 	text-align: center;
-}
 
-nav ul li:first-child{
-	padding:1% 2.5% 0 20%;
-}
-
-nav ul li:last-child{
-	padding:1% 10% 0 2.5%;
-}
-
-nav ul li:nth-child(2){
-	padding: 1% 2.5% 0;
-}
-
-nav ul li:nth-child(3){
-	padding: 1% 2.5% 0;
-}
-
-nav ul li:nth-child(4){
-	padding: 1% 2.5% 0;
 }
 
 nav ul li a{
 	font-family: 'Jura', sans-serif;
-	font-size: 25px;
-	margin: 0 5px 0 5px;
+	font-size: 1.5em;
 	color: #1f1f1f;
 	text-decoration: none;
 	padding:2px 5px 2px 5px;
 }
+
+nav ul li a:last-child{
+	margin-bottom: 2%;
+}
+
+
 
 nav ul li a:hover{
 	background: #c1c1c1;
@@ -138,33 +120,32 @@ nav ul li a:hover{
 }
 
 main{
-	height: 75%;
-	min-height: 585px;
-	width:100%;
+	height: auto;
+	width: auto;
 	background: #c1c1c1;
 	margin:0 auto;
+	border: 1px solid black;
+	border-radius: 2px;
 }
 
 main article#indexPage{
 	height: auto;
-	width:60%;
-	height:50%;
-	margin: 0 auto;
+	width:auto;
+	height:auto;
+	margin: 0 2%;
 	padding:5% 0% 5% 0;
 }
 
 main article{
 	height: auto;
-	width:60%;
-	height:50%;
-	margin: 0 auto;
+	width:auto;
+	margin: 0 2%;
 	padding:5% 0% 5% 0;
 }
 
-
 main article p{
 	font-family: 'Jura', sans-serif;
-	font-size: 25px;
+	font-size: 1.5em;
 	color: white;
 	text-shadow: 2px 2px 2px black;
 }
@@ -179,64 +160,32 @@ main article p a#geekwiseLink{
 }
 
 main aside{
-	height:250px;
-	width: 200px;
+	height:auto;
+	width: 96%;
 	border:2px solid grey;
-	float: left;
 	background: white;
 	box-shadow: 5px 5px 5px black;
 	border-radius: 5px;
-	margin: 0 auto;
-}
-
-main article h2{
-	font-family: 'Jura', sans-serif;
-	font-size: 32px;
-	color: yellow;
-	text-shadow: 2px 2px 2px black;
-}
-
-aside#news{
-	margin:0 2.5% 0 20%;
-}
-
-aside#aboutMe{
-	margin: 0 2.5% 0;
-}
-
-aside#goals{
-	margin: 0 5% 0 2.5%;
+	margin: 2% auto;
 }
 
 main aside h3{
 	color:yellow;
 	border-bottom: 1px solid grey;
 	font-family:  'Jura', sans-serif;
-	font-size: 28px;
-	text-align: center;
+	font-size: 1.5em;
 	text-shadow: 2px 2px 2px black;
 }
 
 main aside p{
 	font-family:  'Jura', sans-serif;
-	font-size:18px;
-	padding: 0 0 0 2%;
+	font-size:1.2em;
 }
-
-main aside p a{
-	color:#dd2222
-}
-
-main aside p a:hover{
-	background: #c1c1c1;
-}
-
 
 footer{
-	width:100%;
-	height: 5%;
-	min-height: 39px;
-	background: white;
+	width:auto;
+	height: auto;
+	background: black;
 }
 
 footer div{
@@ -245,12 +194,12 @@ footer div{
 }
 
 footer div p{
-	width: 60%;
+	width: 96%;
 	margin: 0 auto;
 	font-family:  'Jura', sans-serif;
-	font-size:20px;
+	font-size:1em;
 	color:black;
-	background: white;
+	background: black;
 }
 
 footer div p a{
@@ -264,146 +213,5 @@ footer div p a:hover{
 	background: #c1c1c1;
 	padding:2px 5px 2px 5px;
 	box-shadow: 5px 5px 5px black;
-
-}
-
-.news{
-	padding:15px 0 15px;
-}
-
-.clear{
-	clear:both;
-}
-
-/*Responsiveness*/
-
-
-@media only screen and (max-width:796px){
-
-	*{
-		margin: 0;
-		padding:0;
-	}
-
-	 #container{
-	 	width: auto;
-	 	max-width: 480px;
-	 	float:none;
-	 	height:auto;
-	 } 
-
-	 header {
-	 	width:auto;
-	 	height:auto;
-	 	max-height: 200px;
-	 	min-height: 0;
-	 	max-width: 480px;
-	 	float:none;
-	 	margin: 0 auto;
-	 	border:5px;
-	 	position: relative;
-	 }
-
-	 article, footer {
-		width: auto;
-		height: auto;
-		min-height: 0;
-		max-height: 200px;
-		max-width: 480px;
-		float:none;
-		margin: 0 auto;
-		border-radius: 5px;
-		padding: 0;
-		position: relative;
-	}
-
-	main{
-		width: auto;
-		height: auto;
-		max-width: 480px;
-		min-height: 0px;
-		border-radius: 5px;
-		background-color:#c1c1c1;
-		margin: 0 auto;
-		padding: 0;
-		float:none;
-		position: relative;
-		min-height: 0;
-	}
-
-	main p#indexPage{
-		width: 450px;
-		height:auto;
-		min-width: 450px;
-		padding: 25px auto 25px;
-		margin:15px auto;
-	}
-
-	aside#news, aside#aboutMe, aside#goals{
-		width:auto;
-		max-width: 300px;
-		height:auto;
-		float:none;
-		box-shadow: none;
-		margin:10px auto;
-	}
-
-	h1{
-		font-size: 24px; 
-	}
-
-	h3{
-		font-size: 20px;
-	}
-
-	h2{
-		text-align: center;
-	}
-
-	p{
-		font-size: 15px;
-	}
-	  
-    nav {  
-        width: auto;
-        height:auto;
-        max-width: 480px;
-        border-bottom: 0;  
-    }  
-
-    nav.hideme ul li {
-    	text-align: center;
-
-    } 
-
-   /* nav.hideme { display: none; }*/
-
-   /* nav ul {  
-        display: none;  
-        height: auto;  
-    }  
-    nav a#pull {  
-        display: block;  
-        background-color: #f1f1f1;  
-        width: 100%;  
-        position: relative;  
-    }  
-    nav a#pull:after {  
-        content:"";  
-        background: url('nav-icon.png') no-repeat;  
-        width: 30px;  
-        height: 30px;  
-        display: inline-block;  
-        position: absolute;  
-        rightright: 15px;  
-        top: 10px;  
-    }*/
-}
-
-@media only screen and (max-width:768px) {
-
-}
-
-@media only screen and (min-width:768px){
 
 }

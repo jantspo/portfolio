@@ -14,25 +14,6 @@
   <![endif]-->
   <link href='http://fonts.googleapis.com/css?family=Jura:600' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Amaranth:700' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script> $(function() {  
-      var pull        = $('#pull');  
-          menu        = $('nav ul');  
-          menuHeight  = menu.height();  
-    
-      $(pull).on('click', function(e) {  
-          e.preventDefault();  
-          menu.slideToggle();  
-      });  
-    });  
-
-    $(window).resize(function(){  
-     var w = $(window).width();  
-      if(w > 480 && menu.is(':hidden')) {  
-          menu.removeAttr('style');  
-      }  
-    });   
-  </script>
 </head>
 <body>
   <div id="container">
