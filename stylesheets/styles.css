@@ -63,7 +63,7 @@ body{
 #container{
 	height:auto;
 	background: white;
-	margin: auto;
+	margin: 0 auto;
 	border-radius: 5px;
 }
 
@@ -184,12 +184,53 @@ main aside h3{
 main aside p{
 	font-family:  'Jura', sans-serif;
 	font-size:1.2em;
+	padding: 5px;
 }
 
 footer{
 	width:auto;
 	height: auto;
-	background: black;
+	background: white;
+}
+
+footer div#sociallinks{
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+footer div#sociallinks ul{
+	text-align: center;
+	margin: 0 auto;
+}
+
+footer div#sociallinks ul li{
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+footer div#sociallinks ul li a{
+	text-indent: -9999px;
+	display: inline-block;
+	height:38px;
+	width: 40px;
+	background: url(../images/icons.png)no-repeat;
+}
+
+footer div#sociallinks ul li:first-child a{
+	background-position: -237px -547px;
+}
+
+footer div#sociallinks ul li:nth-child(2) a{
+	background-position: -182px -546px;
+}
+
+footer div#sociallinks ul li:last-child a{
+	background-position: -512px -590px;
+}
+
+footer div#sociallinks ul li a:hover{
+	opacity: .8;
 }
 
 footer div{
@@ -202,8 +243,6 @@ footer div p{
 	margin: 0 auto;
 	font-family:  'Jura', sans-serif;
 	font-size:1em;
-	color:black;
-	background: black;
 	text-align: center;
 }
 
@@ -224,5 +263,5 @@ footer div p a:hover{
 
 footer > p{
 	font: .75em 'Jura', sans-serif;
-	color:white;
+	color:black;
 }
