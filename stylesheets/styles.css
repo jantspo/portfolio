@@ -2,6 +2,11 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+*, *:before, *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -60,7 +65,6 @@ body{
 	background: white;
 	margin: auto;
 	border-radius: 5px;
-	box-shadow: 5px 5px 5px black;
 }
 
 header{
@@ -81,16 +85,16 @@ header h1 a{
 }
 
 nav{
-	height: 5%;
-	width: 100%;
+	height: auto;
+	width: auto;
 	background: white;
 }
 
 nav ul{
-	width: 100%;
+	width: auto;
 	margin: 0 auto;
 	text-align: center;
-	display: block;
+	display: inline;
 }
 
 nav ul li{
@@ -131,7 +135,6 @@ main{
 main article#indexPage{
 	height: auto;
 	width:auto;
-	height:auto;
 	margin: 0 2%;
 	padding:5% 0% 5% 0;
 }
@@ -144,6 +147,7 @@ main article{
 }
 
 main article p{
+	width: auto;
 	font-family: 'Jura', sans-serif;
 	font-size: 1.5em;
 	color: white;
@@ -161,7 +165,7 @@ main article p a#geekwiseLink{
 
 main aside{
 	height:auto;
-	width: 96%;
+	width: auto;
 	border:2px solid grey;
 	background: white;
 	box-shadow: 5px 5px 5px black;
@@ -189,7 +193,7 @@ footer{
 }
 
 footer div{
-	width: 100%;
+	width: auto;
 	margin: 6px 0 5px 5px;
 }
 
@@ -200,9 +204,11 @@ footer div p{
 	font-size:1em;
 	color:black;
 	background: black;
+	text-align: center;
 }
 
 footer div p a{
+	text-align: center;
 	color:yellow;
 	text-decoration: none;
 	padding:2px 5px 2px 5px;
@@ -214,4 +220,9 @@ footer div p a:hover{
 	padding:2px 5px 2px 5px;
 	box-shadow: 5px 5px 5px black;
 
+}
+
+footer > p{
+	font: .75em 'Jura', sans-serif;
+	color:white;
 }
