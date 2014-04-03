@@ -208,6 +208,7 @@ footer{
 	width:auto;
 	height: auto;
 	background: white;
+	margin: 1% auto 0;
 }
 
 footer div#sociallinks{
@@ -286,3 +287,161 @@ footer > p{
 	font: .75em 'Jura', sans-serif;
 	color:black;
 }
+
+/*responsiveness*/
+
+/*tablets*/
+
+
+
+
+
+
+/*med pcs*/
+
+@media only screen and (min-width : 1224px){
+
+	*, *:before, *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+	#container{
+		height:100%;
+		width: 960px;
+		background: white;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+
+	header{
+		height: 15%;
+		width:auto;
+		background: white;
+	}
+
+	header h1{
+		font-size:1.5em;
+		text-align: center;
+	}
+
+	header h1 a{
+		font:5em 'Amaranth', sans-serif;
+		text-decoration: none;
+		color:black;
+	}
+
+	nav{
+		height: 5%;
+		width: auto;
+		background: white;
+		padding: 5px 5px 5px 5px;
+	}
+
+	nav ul{
+		width: auto;
+		text-align: center;
+		display: inline;
+	}
+
+	nav ul li{
+		list-style: none;
+		text-align: center;
+		display: inline-block;
+		width: 19.5%;
+	}
+
+	nav ul li a{
+		font-family: 'Jura', sans-serif;
+		font-size: 1.5em;
+		color: #1f1f1f;
+		text-decoration: none;
+		padding:2px 5px 2px 5px;
+	}
+
+	nav ul li a:last-child{
+		margin-bottom: 0;
+	}
+
+
+
+	nav ul li a:hover{
+		padding: 1px 4px;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
+
+	main{
+		height: 650px;
+		width: auto;
+		margin:0 auto;
+		border-radius: none;
+		border-right: none;
+		border-left: none;
+	}
+
+	main article#indexPage{
+		height: 100%;
+		width:70%;
+		margin: 0 auto;
+		float: left;
+	}
+
+	main article{
+		height: 100%;
+		width:80%;
+		margin: 0 auto;
+	}
+
+
+	main article p{
+		font-size: 1.5em;
+		width: auto;
+		margin: 5% 0 2% 15%;
+	}
+
+	main div#quickinfo{
+		position: relative;
+		float: right;
+		width: 30%;
+	}
+
+
+	main aside{
+		height:210px;
+		width: 200px;
+		display: block;
+		position: relative;
+		float:right;
+		margin: 0 auto;
+	}
+
+	aside#news{
+		margin: 1% 10% 1%;
+	}
+
+	aside#aboutMe{
+		margin: 0 10% 1%;
+	}
+
+	aside#goals{
+		margin: 0 10% 1%;
+	}
+
+	footer{
+	width:auto;
+	height: ;
+	background: white;
+	margin: 1% auto 0;
+	}
+
+	footer > p{
+		text-align: center;
+	}
+
+}
+
+
+
+/*lrg pcs*/
