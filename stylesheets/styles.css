@@ -292,6 +292,18 @@ footer > p{
 
 /*tablets*/
 
+@media only screen and (min-width: 798px ){
+	main article p {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	main aside{
+		width: 60%;
+	}
+
+}
+
 
 
 
