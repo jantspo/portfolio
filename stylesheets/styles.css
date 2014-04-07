@@ -63,13 +63,13 @@ body{
 #container{
 	height:auto;
 	background: white;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	border-radius: 5px;
 }
 
 header{
-	height: auto;
-	width:auto;
+	/*height: auto;
+	width:auto;*/
 	background: white;
 }
 
@@ -140,8 +140,8 @@ main article#indexPage{
 }
 
 main article{
-	height: auto;
-	width:auto;
+	/*height: auto;
+	width:auto;*/
 	margin: 0 2%;
 	padding:5% 0% 5% 0;
 }
@@ -290,11 +290,32 @@ footer > p{
 
 /*responsiveness*/
 
+/*phones*/
+
+
 /*tablets*/
 
-@media only screen and (min-width: 798px ){
+@media only screen and (min-width: 798px ) and (max-width: 1024px) {
+	#container{
+		width: 90%;
+		margin: 0 auto;
+		height: 100%;
+	}
+	main{
+		height: 75%;
+	}
+
+	main article{
+		width: 100%;
+		height: 412px;
+	}
+
+	main article h2{
+		margin: 0 auto 0 20%;
+	}
+
 	main article p {
-		width: 80%;
+		width: 60%;
 		margin: 0 auto;
 	}
 
@@ -311,7 +332,7 @@ footer > p{
 
 /*med pcs*/
 
-@media only screen and (min-width : 1224px){
+@media only screen and (min-width : 1024px){
 
 	*, *:before, *:after{
 	-webkit-box-sizing: border-box;
